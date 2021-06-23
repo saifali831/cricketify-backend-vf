@@ -11,7 +11,7 @@ const {adminExist} = require('./utils/helpers');
 // mongodb connection
 //`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`
 //mongodb+srv://saifZafar:User0007@cluster0.3nkrb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-db.mongoose.connect(`mongodb+srv://saifZafar:User0007@cluster0.3nkrb.mongodb.net/myFirstDatabase?retryWrites=true&w=majorit`,{
+db.mongoose.connect(`mongodb+srv://saifZafar:User0007@cluster0.3nkrb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,{
     useNewUrlParser:true,
     useUnifiedTopology:true
 }).then(()=>{
